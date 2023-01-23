@@ -1,4 +1,5 @@
 import Plotly from 'plotly.js-dist-min';
+import ColorHash from 'color-hash';
 
 import './style.css';
 
@@ -24,9 +25,11 @@ const hashStringToColor = (str) => {
 };
 
 d3.json('/data.json', (err, rows) => {
+  const colorHash = new ColorHash();
+
   const unpack = (categoryData, key) => categoryData.map((row) => row[key]);
   const getColor = (categoryData) =>
-    categoryData.map((row) => hashStringToColor(row.Category));
+    categoryData.map((row) => colorHash.hex(row.Category));
   const getTooltip = (categoryData) =>
     categoryData.map(
       (row) =>
