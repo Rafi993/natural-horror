@@ -1,0 +1,1308 @@
+{
+  "Alligators and crocodiles": [
+    {
+      "Animal": "an alligator god",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "The Great Alligator River",
+      "Lat": "7.8731",
+      "Link": "https://www.imdb.com/title/tt0079156/",
+      "Location": "Srilanka",
+      "Long": "80.7718",
+      "Year": "1979"
+    },
+    {
+      "Animal": "Giant American alligator",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Alligator",
+      "Lat": "27.64891",
+      "Link": "https://www.imdb.com/title/tt0080354/",
+      "Location": "Florida",
+      "Long": "-81.550255",
+      "Year": "1980"
+    },
+    {
+      "Animal": "mutant alligator",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "https://www.imdb.com/title/tt0101309/",
+      "Film": "Alligator II: The Mutation",
+      "Lat": "Chicago",
+      "Link": "-87.6574",
+      "Location": "Regents Park",
+      "Long": "41.9836",
+      "Year": "1991"
+    },
+    {
+      "Animal": "monstrous crocodile God",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "https://www.imdb.com/title/tt0092830/",
+      "Film": "Dark age",
+      "Lat": "Australia",
+      "Link": "133",
+      "Location": "Northern Territory",
+      "Long": "-20",
+      "Year": "1986"
+    },
+    {
+      "Animal": "mutant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Killer Crocodile",
+      "Lat": "18.7357",
+      "Link": "https://www.imdb.com/title/tt0143338/",
+      "Location": "Dominican Republic",
+      "Long": "-70.1627",
+      "Year": "1989"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Lake Placid ",
+      "Lat": "31.9574",
+      "Link": "https://www.imdb.com/title/tt0139414/",
+      "Location": "Black Lake",
+      "Long": "-93.0466",
+      "Year": "1999"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "https://www.imdb.com/title/tt0974583/",
+      "Film": "Lake Placid 2",
+      "Lat": "Maine",
+      "Link": "-68.261663",
+      "Location": "Aroostook County",
+      "Long": "46.637362",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "https://www.imdb.com/title/tt1499249/",
+      "Film": "Lake Placid 3",
+      "Lat": "Maine",
+      "Link": "-68.261663",
+      "Location": "Aroostook County",
+      "Long": "46.637362",
+      "Year": "2010"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Lake Placid: The Final Chapter",
+      "Lat": "31.9574",
+      "Link": "https://www.imdb.com/title/tt2117905/",
+      "Location": "Black Lake",
+      "Long": "-93.0466",
+      "Year": "2012"
+    },
+    {
+      "Animal": "Large nile crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Crocodile",
+      "Lat": "34.959208",
+      "Link": "https://www.imdb.com/title/tt0203425/",
+      "Location": "Southern California",
+      "Long": "-116.419389",
+      "Year": "2000"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Blood Surf",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0226919/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2000"
+    },
+    {
+      "Animal": "Salt water crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Black Water",
+      "Lat": "-25.274398",
+      "Link": "https://www.imdb.com/title/tt0816436/",
+      "Location": "Australia",
+      "Long": "133.775136",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Salt water crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Croc",
+      "Lat": "13.0389",
+      "Link": "https://www.imdb.com/title/tt1127177/",
+      "Location": "Thailand",
+      "Long": "101.4901",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Gustave",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Primeval",
+      "Lat": "-3.373056",
+      "Link": "https://www.imdb.com/title/tt0772193/",
+      "Location": "Burundi",
+      "Long": "29.9188859999999",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Giant crocodile",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Rogue",
+      "Lat": "-20",
+      "Link": "https://www.imdb.com/title/tt0479528/",
+      "Location": "Northern Territory",
+      "Long": "133",
+      "Year": "2007"
+    },
+    {
+      "Animal": "American alligator",
+      "Category": "Alligators and crocodiles",
+      "Fictional": "",
+      "Film": "Crawl",
+      "Lat": "27.64891",
+      "Link": "https://www.imdb.com/title/tt8364368/",
+      "Location": "Florida",
+      "Long": "-81.550255",
+      "Year": "2019"
+    }
+  ],
+  "Ants": [
+    {
+      "Animal": "Army ants",
+      "Category": "Ants",
+      "Fictional": "",
+      "Film": "The Naked Jungle",
+      "Lat": "-8.7832",
+      "Link": "https://www.imdb.com/title/tt0047264/?ref_=nv_sr_srsg_0",
+      "Location": "South America",
+      "Long": "55.4915",
+      "Year": "1954"
+    },
+    {
+      "Animal": "Giant mutated ants",
+      "Category": "Ants",
+      "Fictional": "https://www.imdb.com/title/tt0047573/?ref_=nv_sr_srsg_3",
+      "Film": "Them!",
+      "Lat": "New Mexico",
+      "Link": "-105.9603",
+      "Location": "Alamogordo",
+      "Long": "32.8995",
+      "Year": "1954"
+    },
+    {
+      "Animal": "super-intelligent ants",
+      "Category": "Ants",
+      "Fictional": "",
+      "Film": "Phase IV",
+      "Lat": "32.66539",
+      "Link": "https://www.imdb.com/title/tt0289758/",
+      "Location": "Arizona desert",
+      "Long": "-113.108826",
+      "Year": "1974"
+    },
+    {
+      "Animal": "Large mutated ants",
+      "Category": "Ants",
+      "Fictional": "",
+      "Film": "Empire of the Ants",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0075989/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1977"
+    },
+    {
+      "Animal": "Ants",
+      "Category": "Ants",
+      "Fictional": "",
+      "Film": "It Happened at Lakewood Manor",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0076214/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1977"
+    }
+  ],
+  "Arachnids": [
+    {
+      "Animal": "Tarantulas",
+      "Category": "Arachnids",
+      "Fictional": "https://www.imdb.com/title/tt0076271/",
+      "Film": "Kingdom of the Spider",
+      "Lat": "Arizona",
+      "Link": "-112.072937",
+      "Location": "Verde Valley",
+      "Long": "34.7619655",
+      "Year": "1977"
+    },
+    {
+      "Animal": "Giant Spiders",
+      "Category": "Arachnids",
+      "Fictional": "",
+      "Film": "Arachnophobia",
+      "Lat": "5.0852",
+      "Link": "https://www.imdb.com/title/tt0099052/",
+      "Location": "Venezuelan tepui",
+      "Long": "-61.9422",
+      "Year": "1990"
+    },
+    {
+      "Animal": "Ticks",
+      "Category": "Arachnids",
+      "Fictional": "https://www.imdb.com/title/tt0108339/?ref_=fn_al_tt_1",
+      "Film": "Ticks",
+      "Lat": "California",
+      "Link": "-116.905994",
+      "Location": "Big Bear Lake",
+      "Long": "34.243604",
+      "Year": "1993"
+    },
+    {
+      "Animal": "Giant Spiders",
+      "Category": "Arachnids",
+      "Fictional": "https://www.imdb.com/title/tt0271367/",
+      "Film": "Eight Legged Freaks",
+      "Lat": "Arizona",
+      "Link": "-111.668128",
+      "Location": "Prosperity",
+      "Long": "34.168451",
+      "Year": "2002"
+    },
+    {
+      "Animal": "Giant Spiders",
+      "Category": "Arachnids",
+      "Fictional": "",
+      "Film": "Big Ass Spider!",
+      "Lat": "34.05223",
+      "Link": "https://www.imdb.com/title/tt1830713/",
+      "Location": "Los Angeles",
+      "Long": "-118.24368",
+      "Year": "2013"
+    },
+    {
+      "Animal": "Giant lava-breathing tarantulas",
+      "Category": "Arachnids",
+      "Fictional": "",
+      "Film": "Lavalantula",
+      "Lat": "34.05223",
+      "Link": "https://www.imdb.com/title/tt4060576/?ref_=fn_al_tt_1",
+      "Location": "Los Angeles",
+      "Long": "-118.24368",
+      "Year": "2015"
+    }
+  ],
+  "Bats": [
+    {
+      "Animal": "Mutant bats",
+      "Category": "Bats",
+      "Fictional": "https://www.imdb.com/title/tt0032390/",
+      "Film": "The Devil Bat",
+      "Lat": "Virginia",
+      "Link": "-76.4721742",
+      "Location": "Heathsville",
+      "Long": "37.9176323",
+      "Year": "1940"
+    },
+    {
+      "Animal": "vampire bats",
+      "Category": "Bats",
+      "Fictional": "",
+      "Film": "Nightwing",
+      "Lat": "34.299865",
+      "Link": "https://www.imdb.com/title/tt0079631/",
+      "Location": "New Mexico",
+      "Long": "-106.044864",
+      "Year": "1979"
+    },
+    {
+      "Animal": "mutant bats",
+      "Category": "Bats",
+      "Fictional": "https://www.imdb.com/title/tt0200469/",
+      "Film": "Bats",
+      "Lat": "Texas",
+      "Link": "-108.7381",
+      "Location": "Gallup",
+      "Long": "35.5218",
+      "Year": "1999"
+    }
+  ],
+  "Bears": [
+    {
+      "Animal": "Grizzly bear",
+      "Category": "Bears",
+      "Fictional": "",
+      "Film": "Grizzly",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0074593/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1976"
+    },
+    {
+      "Animal": "Mutant bear",
+      "Category": "Bears",
+      "Fictional": "",
+      "Film": "Prophecy",
+      "Lat": "45.140009",
+      "Link": "https://www.imdb.com/title/tt0079758/",
+      "Location": "Maine",
+      "Long": "-69.218322",
+      "Year": "1979"
+    },
+    {
+      "Animal": "Grizzly bear",
+      "Category": "Bears",
+      "Fictional": "",
+      "Film": "Grizzly Rage",
+      "Lat": "44.4",
+      "Link": "https://www.imdb.com/title/tt0896816/",
+      "Location": "Saranac Lakes Wild Forest",
+      "Long": "-74",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Grizzly bear",
+      "Category": "Bears",
+      "Fictional": "",
+      "Film": "Into the Grizzly Maze",
+      "Lat": "61.385",
+      "Link": "https://www.imdb.com/title/tt1694021/",
+      "Location": "Alaska",
+      "Long": "-152.2683",
+      "Year": "2014"
+    },
+    {
+      "Animal": "Black bear",
+      "Category": "Bears",
+      "Fictional": "",
+      "Film": "Backcountry",
+      "Lat": "47.817",
+      "Link": "https://www.imdb.com/title/tt2944198/",
+      "Location": "Missinaibi Lake Provincial Park",
+      "Long": "-83.717",
+      "Year": "2014"
+    }
+  ],
+  "Birds": [
+    {
+      "Animal": "locks of vicious gulls",
+      "Category": "Birds",
+      "Fictional": "-122.431297",
+      "Film": "The Birds",
+      "Lat": "1963",
+      "Link": "37.773972",
+      "Location": "sparrows and other birds",
+      "Long": "San Francisco",
+      "Year": "crows"
+    },
+    {
+      "Animal": "locks of vicious gulls",
+      "Category": "Birds",
+      "Fictional": "-109.42527",
+      "Film": "The Birds II: Land's End",
+      "Lat": "1994",
+      "Link": "-27.11441",
+      "Location": "sparrows and other birds",
+      "Long": "East Coast island",
+      "Year": "crows"
+    },
+    {
+      "Animal": "locks of vicious gulls",
+      "Category": "Birds",
+      "Fictional": "-4",
+      "Film": "Beaks: The Movie",
+      "Lat": "1987",
+      "Link": "40",
+      "Location": "sparrows and other birds",
+      "Long": "Spain",
+      "Year": "crows"
+    },
+    {
+      "Animal": "Ravens",
+      "Category": "Birds",
+      "Fictional": "",
+      "Film": "KAW",
+      "Lat": "39.4496",
+      "Link": "https://www.imdb.com/title/tt0491005/",
+      "Location": "Middletown",
+      "Long": "-75.7163",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Mutated birds",
+      "Category": "Birds",
+      "Fictional": "",
+      "Film": "Birdemic: Shock and Terror ",
+      "Lat": "37.37",
+      "Link": "https://www.imdb.com/title/tt1316037/?ref_=fn_al_tt_1",
+      "Location": "Silicon Valley",
+      "Long": "-122.04",
+      "Year": "2010"
+    },
+    {
+      "Animal": "Mutated birds",
+      "Category": "Birds",
+      "Fictional": "",
+      "Film": "Birdemic 2: The Resurrection ",
+      "Lat": "37.37",
+      "Link": "https://www.imdb.com/title/tt1674047/?ref_=fn_al_tt_1",
+      "Location": "Silicon Valley",
+      "Long": "-122.04",
+      "Year": "2013"
+    }
+  ],
+  "Canines": [
+    {
+      "Animal": "Dogs",
+      "Category": "Canines",
+      "Fictional": "",
+      "Film": "Dogs",
+      "Lat": "36.778259",
+      "Link": "https://en.wikipedia.org/wiki/Dogs_(1976_film)",
+      "Location": "California",
+      "Long": "-119.417931",
+      "Year": "1976"
+    },
+    {
+      "Animal": "Dogs",
+      "Category": "Canines",
+      "Fictional": "https://www.imdb.com/title/tt0074419/?ref_=tt_urv",
+      "Film": "The Pack",
+      "Lat": "South Africa",
+      "Link": "18.47",
+      "Location": "Seal Island",
+      "Long": "-34.35",
+      "Year": "1977"
+    },
+    {
+      "Animal": "Dogs",
+      "Category": "Canines",
+      "Fictional": "",
+      "Film": "Cujo",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0085382/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1983"
+    },
+    {
+      "Animal": "Mutated dogs",
+      "Category": "Canines",
+      "Fictional": "",
+      "Film": "The Breed",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0455362/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2006"
+    },
+    {
+      "Animal": "Gray wolves",
+      "Category": "Canines",
+      "Fictional": "",
+      "Film": "Frozen",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt1323045/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2010"
+    },
+    {
+      "Animal": "Dogs",
+      "Category": "Canines",
+      "Fictional": "",
+      "Film": "The Pack",
+      "Lat": "-25.274398",
+      "Link": "https://www.imdb.com/title/tt4167720/",
+      "Location": "Australia",
+      "Long": "133.775136",
+      "Year": "2015"
+    }
+  ],
+  "Cockroaches": [
+    {
+      "Animal": "cockroaches",
+      "Category": "Cockroaches",
+      "Fictional": "",
+      "Film": "Creepshow",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0083767/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1982"
+    },
+    {
+      "Animal": "evolved human-sized genetically engineered cockroaches",
+      "Category": "Cockroaches",
+      "Fictional": "",
+      "Film": "Mimic",
+      "Lat": "40.71427",
+      "Link": "https://www.imdb.com/title/tt0119675/",
+      "Location": "New York City",
+      "Long": "-74.00597",
+      "Year": "1997"
+    }
+  ],
+  "Crustaceans": [
+    {
+      "Animal": "Isopods",
+      "Category": "Crustaceans",
+      "Fictional": "",
+      "Film": "The Bay",
+      "Lat": "38.841629",
+      "Link": "https://www.imdb.com/title/tt1713476/",
+      "Location": "Maryland",
+      "Long": "-76.349402",
+      "Year": "2012"
+    }
+  ],
+  "Felines": [
+    {
+      "Animal": "Lions",
+      "Category": "Felines",
+      "Fictional": "https://www.imdb.com/title/tt0056872/",
+      "Film": "Black Zoo",
+      "Lat": "Unknown",
+      "Link": "",
+      "Location": "1963",
+      "Long": "",
+      "Year": "Tigers"
+    },
+    {
+      "Animal": "Bengal Tiger",
+      "Category": "Felines",
+      "Fictional": "",
+      "Film": "Maneater",
+      "Lat": "40.478504",
+      "Link": "https://www.imdb.com/title/tt0846713/",
+      "Location": "Appalachian Trail",
+      "Long": "-76.540081",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Tiger",
+      "Category": "Felines",
+      "Fictional": "",
+      "Film": "Burning Bright",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt1244658/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2010"
+    },
+    {
+      "Animal": "Lion",
+      "Category": "Felines",
+      "Fictional": "https://www.imdb.com/title/tt13223398/",
+      "Film": "Beast",
+      "Lat": "South Africa",
+      "Link": "30.903358",
+      "Location": "Mopani Reserve",
+      "Long": "-24.514947",
+      "Year": "2022"
+    }
+  ],
+  "Fish": [
+    {
+      "Animal": "Killer Whale",
+      "Category": "Fish",
+      "Fictional": "https://www.imdb.com/title/tt0076504/",
+      "Film": "Orca",
+      "Lat": "Nova Scotia",
+      "Link": "-63.4336",
+      "Location": "South Harbour",
+      "Long": "45.5236",
+      "Year": "1977"
+    }
+  ],
+  "Gastropods": [
+    {
+      "Animal": "Black slugs",
+      "Category": "Gastropods",
+      "Fictional": "",
+      "Film": "Slugs",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0093995/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1988"
+    }
+  ],
+  "Honey bees": [
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "The Deadly Bees",
+      "Lat": "-40.7446",
+      "Link": "https://www.imdb.com/title/tt0061557/",
+      "Location": "Seagull Island",
+      "Long": "173.92432",
+      "Year": "1966"
+    },
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "Killer Bees",
+      "Lat": "37.77",
+      "Link": "https://www.imdb.com/title/tt0353625/",
+      "Location": "San Francisco",
+      "Long": "-122.42",
+      "Year": "1974"
+    },
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "The Savage Bees",
+      "Lat": "29.951065",
+      "Link": "https://www.imdb.com/title/tt0075166/",
+      "Location": "New Orleans",
+      "Long": "-90.071533",
+      "Year": "1976"
+    },
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "The Swarm",
+      "Lat": "31.169621",
+      "Link": "https://www.imdb.com/title/tt0078350/",
+      "Location": "Texas",
+      "Long": "-99.683617",
+      "Year": "1978"
+    },
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "The Bees",
+      "Lat": "23",
+      "Link": "https://www.imdb.com/title/tt0075620/",
+      "Location": "Mexico",
+      "Long": "102",
+      "Year": "1978"
+    },
+    {
+      "Animal": "Honey bees",
+      "Category": "Honey bees",
+      "Fictional": "",
+      "Film": "Deadly Invasion: The Killer Bee Nightmare ",
+      "Lat": "31.169621",
+      "Link": "https://www.imdb.com/title/tt0112826/",
+      "Location": "Texas",
+      "Long": "-99.683617",
+      "Year": "1995"
+    }
+  ],
+  "Locusts": [
+    {
+      "Animal": "Locusts",
+      "Category": "Locusts",
+      "Fictional": "",
+      "Film": "Locusts: The 8th Plague",
+      "Lat": "44.068203",
+      "Link": "https://www.imdb.com/title/tt0491661/",
+      "Location": "Idaho",
+      "Long": "-114.742043",
+      "Year": "2005"
+    }
+  ],
+  "Octopus": [
+    {
+      "Animal": "Giant octopus",
+      "Category": "Octopus",
+      "Fictional": "https://www.imdb.com/title/tt0076809/",
+      "Film": "Tentacles",
+      "Lat": "California",
+      "Link": "-117.26058938",
+      "Location": "Solana Beach",
+      "Long": "32.9931288",
+      "Year": "1977"
+    },
+    {
+      "Animal": "Giant octopus",
+      "Category": "Octopus",
+      "Fictional": "",
+      "Film": "Octopus",
+      "Lat": "21.5218",
+      "Link": "https://www.imdb.com/title/tt0221905/",
+      "Location": "Cuba",
+      "Long": "-77.7812",
+      "Year": "2000"
+    }
+  ],
+  "Pigs": [
+    {
+      "Animal": "Pigs",
+      "Category": "Pigs",
+      "Fictional": "",
+      "Film": "Pigs",
+      "Lat": "36.778259",
+      "Link": "https://www.imdb.com/title/tt0070537/?ref_=ttpl_ov_i",
+      "Location": "California",
+      "Long": "-119.417931",
+      "Year": "1973"
+    },
+    {
+      "Animal": "Wild boar",
+      "Category": "Pigs",
+      "Fictional": "",
+      "Film": "Razorback",
+      "Lat": "-25.274398",
+      "Link": "https://www.imdb.com/title/tt0087981/",
+      "Location": "Australia",
+      "Long": "133.775136",
+      "Year": "1984"
+    },
+    {
+      "Animal": "Wild boar",
+      "Category": "Pigs",
+      "Fictional": "",
+      "Film": "Pig Hunt",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt1022883/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2008"
+    }
+  ],
+  "Piranhas": [
+    {
+      "Animal": "Genetically enhanced piranhas",
+      "Category": "Piranhas",
+      "Fictional": "https://www.imdb.com/title/tt0078087/?ref_=fn_al_tt_1",
+      "Film": "Piranha",
+      "Lat": "United states",
+      "Link": "-167.17499999",
+      "Location": "Lost River Lake",
+      "Long": "65.45638888",
+      "Year": "1987"
+    },
+    {
+      "Animal": "mutant piranhas",
+      "Category": "Piranhas",
+      "Fictional": "",
+      "Film": "Piranha II: The Spawning",
+      "Lat": "14.5255555556",
+      "Link": "https://www.imdb.com/title/tt0082910/?ref_=fn_al_tt_1",
+      "Location": "Caribbean",
+      "Long": "-75.8183333333",
+      "Year": "1982"
+    },
+    {
+      "Animal": "prehistoric piranhas",
+      "Category": "Piranhas",
+      "Fictional": "https://www.imdb.com/title/tt0464154/?ref_=nv_sr_srsg_0",
+      "Film": "Piranha 3D",
+      "Lat": "Arizona",
+      "Link": "33.438353",
+      "Location": "Lake Victoria",
+      "Long": "-0.755775",
+      "Year": "2010"
+    },
+    {
+      "Animal": "prehistoric piranhas",
+      "Category": "Piranhas",
+      "Fictional": "https://www.imdb.com/title/tt1714203/?ref_=fn_al_tt_1",
+      "Film": "Piranha 3DD",
+      "Lat": "Minnesota",
+      "Link": "-94.503809",
+      "Location": "Cross lake",
+      "Long": "46.443226",
+      "Year": "2012"
+    },
+    {
+      "Animal": "killer piranhas",
+      "Category": "Piranhas",
+      "Fictional": "https://www.imdb.com/title/tt0114137/?ref_=fn_al_tt_1",
+      "Film": "Piranha",
+      "Lat": "United states",
+      "Link": "",
+      "Location": "Lost River Lake",
+      "Long": "",
+      "Year": "1995"
+    }
+  ],
+  "Plants": [
+    {
+      "Animal": "mutant Venus flytrap",
+      "Category": "Plants",
+      "Fictional": "",
+      "Film": "Little Shop of Horrors",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0091419/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1960"
+    },
+    {
+      "Animal": "Mutant plants",
+      "Category": "Plants",
+      "Fictional": "",
+      "Film": "The Day of the Triffids ",
+      "Lat": "46.227638",
+      "Link": "https://www.imdb.com/title/tt0055894/",
+      "Location": "France",
+      "Long": "2.213749",
+      "Year": "1962"
+    },
+    {
+      "Animal": "killer tomatoes",
+      "Category": "Plants",
+      "Fictional": "",
+      "Film": "Attack of the Killer Tomatoes",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0080391/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1978"
+    },
+    {
+      "Animal": "Vines",
+      "Category": "Plants",
+      "Fictional": "",
+      "Film": "The Ruins",
+      "Lat": "23",
+      "Link": "https://www.imdb.com/title/tt0963794/",
+      "Location": "Mexico",
+      "Long": "-102",
+      "Year": "2008"
+    }
+  ],
+  "Primate": [
+    {
+      "Animal": "Monkey",
+      "Category": "Primate",
+      "Fictional": "",
+      "Film": "Blood Monkey",
+      "Lat": "13.0389",
+      "Link": "https://www.imdb.com/title/tt1054564/",
+      "Location": "Thailand",
+      "Long": "101.4901",
+      "Year": "2007"
+    },
+    {
+      "Animal": "Monkey",
+      "Category": "Primate",
+      "Fictional": "",
+      "Film": "Monkey Shines",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0095652/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1988"
+    }
+  ],
+  "Rabbits": [
+    {
+      "Animal": "Giant rabbits",
+      "Category": "Rabbits",
+      "Fictional": "",
+      "Film": "Night of the Lepus ",
+      "Lat": "34.168451",
+      "Link": "https://www.imdb.com/title/tt0069005/",
+      "Location": "Arizona",
+      "Long": "-111.668128",
+      "Year": "1972"
+    }
+  ],
+  "Rats": [
+    {
+      "Animal": "Rats",
+      "Category": "Rats",
+      "Fictional": "",
+      "Film": "Willard",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0067991/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1971"
+    },
+    {
+      "Animal": "Rats",
+      "Category": "Rats",
+      "Fictional": "",
+      "Film": "Ben",
+      "Lat": "40.71427",
+      "Link": "https://www.imdb.com/title/tt0068264/",
+      "Location": "New york",
+      "Long": "-74.00597",
+      "Year": "1972"
+    },
+    {
+      "Animal": "Rats",
+      "Category": "Rats",
+      "Fictional": "",
+      "Film": "Deadly Eyes",
+      "Lat": "40.71427",
+      "Link": "https://www.imdb.com/title/tt0083801/?ref_=ttfc_fc_tt",
+      "Location": "New york",
+      "Long": "-74.00597",
+      "Year": "1982"
+    },
+    {
+      "Animal": "Rats",
+      "Category": "Rats",
+      "Fictional": "",
+      "Film": "Graveyard Shift",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0099697/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1990"
+    },
+    {
+      "Animal": "Rats",
+      "Category": "Rats",
+      "Fictional": "",
+      "Film": "Willard",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0310357/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2003"
+    }
+  ],
+  "Sharks": [
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "https://www.imdb.com/title/tt0073195/?ref_=fn_al_tt_1",
+      "Film": "Jaws",
+      "Lat": "Massachusetts",
+      "Link": "-70.596297",
+      "Location": "Amity Island",
+      "Long": "41.964569",
+      "Year": "1975"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "https://www.imdb.com/title/tt0077766/?ref_=fn_al_tt_1",
+      "Film": "Jaws 2",
+      "Lat": "Massachusetts",
+      "Link": "-70.596297",
+      "Location": "Amity Island",
+      "Long": "41.964569",
+      "Year": "1978"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "https://www.imdb.com/title/tt0085750/?ref_=fn_al_tt_1",
+      "Film": "Jaws 3",
+      "Lat": "Massachusetts",
+      "Link": "-70.596297",
+      "Location": "Amity Island",
+      "Long": "41.964569",
+      "Year": "1983"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "https://www.imdb.com/title/tt8435002/?ref_=fn_al_tt_1",
+      "Film": "Great White",
+      "Lat": "United states",
+      "Link": "",
+      "Location": "Port harbour",
+      "Long": "",
+      "Year": "1981"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Deep Blood ",
+      "Lat": "27.64891",
+      "Link": "https://www.imdb.com/title/tt0097178/?ref_=fn_al_tt_1",
+      "Location": "Florida",
+      "Long": "-81.550255",
+      "Year": "1989"
+    },
+    {
+      "Animal": "Large genetically engineered shortfin mako sharks",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Deep Blue Sea",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0149261/?ref_=fn_al_tt_1",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1999"
+    },
+    {
+      "Animal": "Bull shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Red Water",
+      "Lat": "31",
+      "Link": "https://www.imdb.com/title/tt0365677/?ref_=fn_al_tt_1",
+      "Location": "Louisiana",
+      "Long": "-92",
+      "Year": "2003"
+    },
+    {
+      "Animal": "Caribbean reef sharks",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Open Water",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0374102/?ref_=nv_sr_srsg_0",
+      "Location": "Southern Pacific Ocean",
+      "Long": "",
+      "Year": "2003"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "The Reef",
+      "Lat": "-5",
+      "Link": "https://www.imdb.com/title/tt1320291/",
+      "Location": "Indonesia",
+      "Long": "120",
+      "Year": "2010"
+    },
+    {
+      "Animal": "various species of sharks",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Shark Night",
+      "Lat": "29.951065",
+      "Link": "https://www.imdb.com/title/tt1633356/",
+      "Location": "New Orleans",
+      "Long": "-90.071533",
+      "Year": "2011"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Bait 3D",
+      "Lat": "-33.865143",
+      "Link": "https://www.imdb.com/title/tt1438173/",
+      "Location": "Australia",
+      "Long": "151.2099",
+      "Year": "2012"
+    },
+    {
+      "Animal": "various species of sharks",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Sharknado",
+      "Lat": "34.0522",
+      "Link": "https://www.imdb.com/title/tt2724064/?ref_=fn_al_tt_1",
+      "Location": "Los Angeles",
+      "Long": "-118.2437",
+      "Year": "2013"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "47 Meters Down: Uncaged",
+      "Lat": "12.769",
+      "Link": "https://www.imdb.com/title/tt7329656/?ref_=fn_al_tt_1",
+      "Location": "Mayan city",
+      "Long": "-85.6024",
+      "Year": "2019"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "Great White",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt8435002/?ref_=nv_sr_srsg_0",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2021"
+    },
+    {
+      "Animal": "Great white shark",
+      "Category": "Sharks",
+      "Fictional": "",
+      "Film": "The Requin",
+      "Lat": "16.1667",
+      "Link": "https://www.imdb.com/title/tt11348232/?ref_=nv_sr_srsg_0",
+      "Location": "Vietnam",
+      "Long": "107.8333",
+      "Year": "2022"
+    }
+  ],
+  "Sheep": [
+    {
+      "Animal": "Mutant Sheep",
+      "Category": "Sheep",
+      "Fictional": "",
+      "Film": "Black Sheep",
+      "Lat": "-41.2865",
+      "Link": "https://www.imdb.com/title/tt0779982/",
+      "Location": "New Zealand",
+      "Long": "174.7762",
+      "Year": "2006"
+    }
+  ],
+  "Snakes": [
+    {
+      "Animal": "rattlesnakes ",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Rattlers ",
+      "Lat": "36.778259",
+      "Link": "https://www.imdb.com/title/tt0073609/",
+      "Location": "California",
+      "Long": "-119.417931",
+      "Year": "1976"
+    },
+    {
+      "Animal": "Anaconda",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Anaconda",
+      "Lat": "-2.644652",
+      "Link": "https://www.imdb.com/title/tt0118615/",
+      "Location": "Amazon River",
+      "Long": "-56.947928",
+      "Year": "1997"
+    },
+    {
+      "Animal": "Anaconda",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Anacondas: The Hunt for the Blood Orchid",
+      "Lat": "3.3547",
+      "Link": "https://www.imdb.com/title/tt0366174/",
+      "Location": "Borneo",
+      "Long": "117.5965",
+      "Year": "2004"
+    },
+    {
+      "Animal": "Anaconda",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Anaconda 3: Offspring",
+      "Lat": "-2.644652",
+      "Link": "https://www.imdb.com/title/tt1137996/",
+      "Location": "Amazon River",
+      "Long": "-56.947928",
+      "Year": "2008"
+    },
+    {
+      "Animal": "Anaconda",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Anacondas: Trail of Blood",
+      "Lat": "46.5",
+      "Link": "https://www.imdb.com/title/tt1150934/",
+      "Location": "Romanian Carpathians",
+      "Long": "25.5",
+      "Year": "2009"
+    },
+    {
+      "Animal": "Mutant Cobra",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "King Cobra",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0138797/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "1999"
+    },
+    {
+      "Animal": "rattlesnakes ",
+      "Category": "Snakes",
+      "Fictional": "https://www.imdb.com/title/tt0203139/",
+      "Film": "Silent Predators",
+      "Lat": "California",
+      "Link": "-116.8366",
+      "Location": "San Vicente",
+      "Long": "33.0317",
+      "Year": "1999"
+    },
+    {
+      "Animal": "Snakes",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Snakes on a Plane",
+      "Lat": "34.052235",
+      "Link": "https://www.imdb.com/title/tt0417148/",
+      "Location": "Los Angeles",
+      "Long": "-118.243683",
+      "Year": "2006"
+    },
+    {
+      "Animal": "Mutant snake",
+      "Category": "Snakes",
+      "Fictional": "",
+      "Film": "Mega Snake",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt0914813/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2007"
+    }
+  ],
+  "Wasps": [
+    {
+      "Animal": "Large mutated wasps",
+      "Category": "Wasps",
+      "Fictional": "",
+      "Film": "Stung",
+      "Lat": "",
+      "Link": "https://www.imdb.com/title/tt3300572/",
+      "Location": "Unknown",
+      "Long": "",
+      "Year": "2015"
+    }
+  ],
+  "Worms": [
+    {
+      "Animal": "Giant leaches",
+      "Category": "Worms",
+      "Fictional": "",
+      "Film": "Attack of the Giant Leeches",
+      "Lat": "27.64891",
+      "Link": "https://www.imdb.com/title/tt0053611/",
+      "Location": "Florida",
+      "Long": "-81.550255",
+      "Year": "1959"
+    },
+    {
+      "Animal": "Blood worms",
+      "Category": "Worms",
+      "Fictional": "https://www.imdb.com/title/tt0075261/",
+      "Film": "Squirm",
+      "Lat": "Georgia",
+      "Link": "-82.9001",
+      "Location": "1976",
+      "Long": "32.1656",
+      "Year": "Sand worm"
+    },
+    {
+      "Animal": "Giant worm",
+      "Category": "Worms",
+      "Fictional": "",
+      "Film": "Blood Beach",
+      "Lat": "34.052235",
+      "Link": "https://www.imdb.com/title/tt0082083/",
+      "Location": "Los Angeles",
+      "Long": "-118.243683",
+      "Year": "1980"
+    }
+  ]
+}
