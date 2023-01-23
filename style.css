@@ -50,8 +50,21 @@ h1 {
   margin-bottom: 12px;
 }
 
-#app {
+#map {
   width: 100%;
+  min-height: 70vh;
   margin: 0 auto;
   text-align: center;
+}
+
+tag {
+  background: #282828;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+#searchResult {
+  line-height: 2.5rem;
+  display: none;
 }
