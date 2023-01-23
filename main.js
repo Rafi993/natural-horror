@@ -8,6 +8,7 @@ const renderSearch = (result) => {
   mapPlot.style.display = 'none';
   const searchResult = document.getElementById('searchResult');
   searchResult.style.display = 'block';
+  clearSearch();
 
   for (const item of result) {
     const li = document.createElement('li');
@@ -20,6 +21,17 @@ const renderSearch = (result) => {
 
     searchResult.appendChild(li);
   }
+
+  if (result.length === 0) {
+    const li = document.createElement('li');
+    li.innerHTML = `
+     <div>
+        <h2>Try searching something else</h2>
+     </div>
+    `;
+
+    searchResult.appendChild(li);
+  }
 };
 
 const hideSearch = () => {
@@ -27,6 +39,10 @@ const hideSearch = () => {
   mapPlot.style.display = 'block';
   const searchResult = document.getElementById('searchResult');
   searchResult.style.display = 'none';
+  clearSearch();
+};
+
+const clearSearch = () => {
   searchResult.replaceChildren();
 };
 
@@ -42,11 +58,14 @@ d3.json('/data.json', (err, rows) => {
       return;
     }
 
+    console.log(
+      searchTerm,
+      Object.values(rows).reduce((acc, item) => [...acc, ...item], []),
+    );
+
     const result = Object.values(rows)
       .reduce((acc, item) => [...acc, ...item], [])
-      .filter((item) =>
-        item.Film.toLowerCase().includes(searchTerm.toLowerCase()),
-      );
+      .filter((item) => item.Film.toLowerCase().includes(searchTerm));
 
     renderSearch(result);
   });
