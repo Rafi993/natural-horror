@@ -101,7 +101,7 @@ d3.json('/data.json', (err, rows) => {
     title: 'Where natural horror films takes place',
     dragmode: 'zoom',
     mapbox: {
-      style: 'carto-darkmatter',
+      style: 'open-street-map',
       center: { lat: 38, lon: -90 },
       zoom: 2,
     },
@@ -112,7 +112,13 @@ d3.json('/data.json', (err, rows) => {
       x: 0.05,
       bgcolor: '#000',
       borderColor: '#282828',
-      borderRadius: '8px',
+      borderwidth: 2,
+      borderRadius: 8,
+      font: {
+        family: 'sans-serif',
+        size: 14,
+        color: '#fff',
+      },
     },
     config: { responsive: true },
   };
