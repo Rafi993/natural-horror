@@ -112,10 +112,10 @@
     "animal": "Large nile crocodile",
     "category": "Alligators and crocodiles",
     "movie": "Crocodile",
-    "lng": "34.959208",
+    "lat": "34.959208",
     "link": "https://www.imdb.com/title/tt0203425/",
     "location": "Southern California",
-    "lat": "-116.419389",
+    "lng": "-116.419389",
     "year": "2000",
     "type": "Point",
     "coordinates": [-116.419389, 34.959208]
@@ -1080,8 +1080,8 @@
     "link": "https://www.imdb.com/title/tt0085750/?ref_=fn_al_tt_1",
     "movie": "Jaws 3",
     "location": "Amity Island, Massachusetts",
-    "lat": "-70.596297",
-    "lng": "41.964569",
+    "lng": "-70.596297",
+    "lat": "41.964569",
     "year": "1983",
     "type": "Point",
     "coordinates": [41.964569, null]
