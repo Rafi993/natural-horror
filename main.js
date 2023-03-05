@@ -24,7 +24,7 @@ const setupScene = () => {
   camera = new THREE.PerspectiveCamera();
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
-  camera.position.z = 330;
+  camera.position.z = 340;
 
   // Setup renderers
   renderers = [new THREE.WebGLRenderer(), new CSS2DRenderer()];
