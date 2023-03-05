@@ -55,9 +55,20 @@ const renderGlobe = (data) => {
     .htmlElement((d) => {
       const el = document.createElement('div');
 
-      el.innerHTML = `<button class='category-button' aria-label="${
-        d.category
-      }">${categories[d.category]}</button>`;
+      el.innerHTML = `
+      <div class='category-container'>
+      <a  
+      target='_blank'
+       href=${d.link}
+       class='category-button'
+       aria-label="${d.category}">${categories[d.category]}</a>
+      
+        <div class='tooltip'>
+          <h3>${d.movie} (${d.year})</h3>
+          <p>Location: ${d.location}</p>
+        </div>  
+      </div>
+      `;
 
       const colorHash = new ColorHash({ lightness: 0.5, saturation: 0.6 });
 

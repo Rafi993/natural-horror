@@ -71,8 +71,35 @@ tag {
 }
 
 .category-button {
+  display: block;
   background-color: #e4e3be;
   border: none;
   cursor: pointer;
   border-radius: 8px;
+  width: 25px;
+  pointer-events: all !important;
+}
+
+.category-container:hover .tooltip {
+  display: block;
+}
+
+.tooltip {
+  background-color: #282828;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 2px 8px;
+  color: #fff;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  line-height: 1.8;
+}
+
+.tooltip h3,
+.tooltip p {
+  font-size: 10px;
+  white-space: nowrap;
+  margin: 0;
+  text-align: left;
 }
