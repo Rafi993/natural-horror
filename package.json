@@ -12,7 +12,6 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "color-hash": "^2.0.2",
     "plotly.js-dist-min": "^2.18.0",
     "three": "^0.150.1",
     "three-globe": "^2.25.4"

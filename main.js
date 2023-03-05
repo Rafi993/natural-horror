@@ -5,7 +5,6 @@ import { TrackballControls } from 'three/addons/controls/TrackballControls';
 import { CSS2DRenderer } from 'three/addons/renderers/CSS2DRenderer';
 import { handleSearch } from './search';
 import { categories } from './categories';
-import ColorHash from 'color-hash';
 
 let scene = null;
 let camera = null;
@@ -70,9 +69,6 @@ const renderGlobe = (data) => {
       </div>
       `;
 
-      const colorHash = new ColorHash({ lightness: 0.5, saturation: 0.6 });
-
-      el.style.color = colorHash.hex(d.category);
       el.style.width = `${10}px`;
       return el;
     });

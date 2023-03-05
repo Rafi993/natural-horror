@@ -1,14 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  color-hash: ^2.0.2
   plotly.js-dist-min: ^2.18.0
   three: ^0.150.1
   three-globe: ^2.25.4
   vite: ^4.0.0
 
 dependencies:
-  color-hash: 2.0.2
   plotly.js-dist-min: 2.18.0
   three: 0.150.1
   three-globe: 2.25.4_three@0.150.1
@@ -240,10 +238,6 @@ packages:
   /accessor-fn/1.4.1:
     resolution: {integrity: sha512-P7yNKfmpuWLUwiRVk9RkRIPGjngemjZ7yANc0DL7otgDqEIWkEByMhShzfgQ5ZwCPEUmba4v1kOqCdGhpzY3ew==}
     engines: {node: '>=12'}
-    dev: false
-
-  /color-hash/2.0.2:
-    resolution: {integrity: sha512-6exeENAqBTuIR1wIo36mR8xVVBv6l1hSLd7Qmvf6158Ld1L15/dbahR9VUOiX7GmGJBCnQyS0EY+I8x+wa7egg==}
     dev: false
 
   /d3-array/3.2.2:
