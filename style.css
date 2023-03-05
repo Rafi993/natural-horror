@@ -140,6 +140,7 @@ tag {
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .legend-item input:checked + label {
@@ -150,4 +151,23 @@ tag {
 .legend-item input {
   visibility: hidden;
   position: absolute;
+}
+
+.why {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #282828;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.why:hover,
+.legend-item:hover input + label {
+  background-color: #161212;
 }
