@@ -108,6 +108,24 @@ const renderGlobe = (animateIn = true) => {
   animate();
 };
 
+const renderStars = (starCount = 2000) => {
+  const stars = new THREE.Group();
+
+  const geometry = new THREE.SphereGeometry(0.2, 32, 32);
+  const material = new THREE.MeshBasicMaterial({ color: 0xffffff });
+
+  for (let i = 0; i < starCount; i++) {
+    const star = new THREE.Mesh(geometry, material);
+    star.position.x = Math.random() * 800 - 500;
+    star.position.y = Math.random() * 800 - 500;
+    star.position.z = Math.random() * 1000 - 500;
+    stars.add(star);
+  }
+
+  scene.add(stars);
+  stars.renderOrder = -1;
+};
+
 const renderLegend = () => {
   const legend = document.getElementById('legend-list');
   for (const category of Object.keys(categories)) {
@@ -138,6 +156,7 @@ const run = async () => {
     setupScene();
     const response = await fetch('/data.json');
     data = await response.json();
+    renderStars();
     renderGlobe();
     renderLegend();
 
