@@ -1,135 +1,99 @@
-import Plotly from 'plotly.js-dist-min';
+import * as THREE from 'three';
+import ThreeGlobe from 'three-globe';
+import './style.css';
+import { TrackballControls } from 'three/addons/controls/TrackballControls';
+import { CSS2DRenderer } from 'three/addons/renderers/CSS2DRenderer';
+import { handleSearch } from './search';
+import { categories } from './categories';
 import ColorHash from 'color-hash';
 
-import './style.css';
+let scene = null;
+let camera = null;
+let renderers = null;
+let tbControls = null;
 
-const renderSearch = (result) => {
-  const mapPlot = document.getElementById('map');
-  mapPlot.style.display = 'none';
-  const searchResult = document.getElementById('searchResult');
-  searchResult.style.display = 'block';
-  clearSearch();
+const addStars = () => {};
 
-  for (const item of result) {
-    const li = document.createElement('li');
-    li.innerHTML = `
-     <div>
-        <a href="${item.Link}" target="_blank">${item.Film}(${item.Year})</a>
-        <tag>${item.Category}</tag>
-     </div>
-    `;
+const setupScene = () => {
+  scene = new THREE.Scene();
+  scene.add(new THREE.AmbientLight(0xbbbbbb));
+  scene.add(new THREE.DirectionalLight(0xffffff, 0.6));
 
-    searchResult.appendChild(li);
-  }
+  // Setup camera
+  camera = new THREE.PerspectiveCamera();
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  camera.position.z = 330;
 
-  if (result.length === 0) {
-    const li = document.createElement('li');
-    li.innerHTML = `
-     <div>
-        <h2>Try searching something else</h2>
-     </div>
-    `;
-
-    searchResult.appendChild(li);
-  }
-};
-
-const hideSearch = () => {
-  const mapPlot = document.getElementById('map');
-  mapPlot.style.display = 'block';
-  const searchResult = document.getElementById('searchResult');
-  searchResult.style.display = 'none';
-  clearSearch();
-};
-
-const clearSearch = () => {
-  searchResult.replaceChildren();
-};
-
-d3.json('/data.json', (err, rows) => {
-  const colorHash = new ColorHash({ lightness: 0.5, saturation: 0.6 });
-
-  const search = document.getElementById('search');
-  search.addEventListener('keyup', (event) => {
-    const searchTerm = event.target.value.toLowerCase();
-
-    if (searchTerm.length === 0) {
-      hideSearch();
-      return;
+  // Setup renderers
+  renderers = [new THREE.WebGLRenderer(), new CSS2DRenderer()];
+  renderers.forEach((r, idx) => {
+    r.setSize(window.innerWidth, window.innerHeight);
+    if (idx > 0) {
+      // overlay additional on top of main renderer
+      r.domElement.style.position = 'absolute';
+      r.domElement.style.top = '0px';
+      r.domElement.style.pointerEvents = 'none';
     }
-
-    console.log(
-      searchTerm,
-      Object.values(rows).reduce((acc, item) => [...acc, ...item], []),
-    );
-
-    const result = Object.values(rows)
-      .reduce((acc, item) => [...acc, ...item], [])
-      .filter((item) => item.Film.toLowerCase().includes(searchTerm));
-
-    renderSearch(result);
+    document.getElementById('map').appendChild(r.domElement);
   });
 
-  const unpack = (categoryData, key) => categoryData.map((row) => row[key]);
-  const getColor = (categoryData) =>
-    categoryData.map((row) => colorHash.hex(row.Category));
-  const getTooltip = (categoryData) =>
-    categoryData.map((row) => [
-      `<b>Category:</b> ${row.Category} <br>` +
-        `<b>Animal:</b> ${row.Animal} <br>` +
-        `<b>Movie:</b> ${row.Film} (${row.Year}) <br>` +
-        `<b>Location:</b> ${row.Location} <br>`,
-      row.Link,
-    ]);
+  // Add camera controls
+  tbControls = new TrackballControls(camera, renderers[0].domElement);
+  tbControls.minDistance = 101;
+  tbControls.rotateSpeed = 5;
+  tbControls.zoomSpeed = 0.8;
 
-  const data = Object.values(rows).map((categoryData) => {
-    return {
-      hovermode: 'closest',
-      type: 'scattermapbox',
-      text: getTooltip(categoryData),
-      lon: unpack(categoryData, 'Long'),
-      lat: unpack(categoryData, 'Lat'),
-      hovertemplate: `%{text[0]}<extra></extra>`,
-      marker: { color: getColor(categoryData), size: 8, cursor: 'pointer' },
-      name: `${categoryData[0].Category} (${categoryData.length})`,
-      showlegend: true,
-      link: unpack(categoryData, 'Link'),
-    };
-  });
+  addStars();
+};
 
-  const layout = {
-    title: 'Where natural horror films takes place',
-    dragmode: 'zoom',
-    mapbox: {
-      style: 'open-street-map',
-      center: { lat: 38, lon: -90 },
-      zoom: 2,
-    },
-    margin: { r: 0, t: 0, b: 0, l: 0 },
-    legend: {
-      orientation: 'h',
-      y: 0.25,
-      x: 0.05,
-      bgcolor: '#000',
-      borderColor: '#282828',
-      borderwidth: 2,
-      borderRadius: 8,
-      font: {
-        family: 'sans-serif',
-        size: 14,
-        color: '#fff',
-      },
-    },
-    config: { responsive: true },
+const renderGlobe = (data) => {
+  const Globe = new ThreeGlobe()
+    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+    .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+    .htmlElementsData(data)
+    .htmlElement((d) => {
+      const el = document.createElement('div');
+
+      el.innerHTML = `<button class='category-button' aria-label="${
+        d.category
+      }">${categories[d.category]}</button>`;
+
+      const colorHash = new ColorHash({ lightness: 0.5, saturation: 0.6 });
+
+      el.style.color = colorHash.hex(d.category);
+      el.style.width = `${10}px`;
+      return el;
+    });
+
+  scene.add(Globe);
+  Globe.position.set(10, 40, 0);
+  // Update pov when camera moves
+  Globe.setPointOfView(camera.position, Globe.position);
+  tbControls.addEventListener('change', () =>
+    Globe.setPointOfView(camera.position, Globe.position),
+  );
+
+  // Kick-off renderers
+  const animate = () => {
+    tbControls.update();
+    renderers.forEach((r) => r.render(scene, camera));
+    requestAnimationFrame(animate);
   };
 
-  const mapPlot = document.getElementById('map');
-  Plotly.newPlot('map', data, layout);
-  mapPlot.on('plotly_click', (data) => {
-    const link = data.points[0].data.link[0];
+  animate();
+};
 
-    if (link) {
-      window.open(link, '_blank');
-    }
-  });
-});
+const run = async () => {
+  try {
+    setupScene();
+    const response = await fetch('/data.json');
+    const data = await response.json();
+    renderGlobe(data);
+    document
+      .getElementById('search')
+      .addEventListener('keyup', handleSearch(data));
+  } catch (error) {}
+};
+
+run();

@@ -55,6 +55,7 @@ h1 {
   min-height: 70vh;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 tag {
@@ -67,4 +68,11 @@ tag {
 #searchResult {
   line-height: 2.5rem;
   display: none;
+}
+
+.category-button {
+  background-color: #e4e3be;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
 }
