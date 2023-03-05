@@ -114,7 +114,7 @@ const renderLegend = () => {
     const div = document.createElement('div');
     div.innerHTML = `
     <div class='legend-item'>
-      <input id="${category}" type='checkbox' value=${category}>
+      <input id="${category}" type='checkbox' value="${category}">
       <label for="${category}">${categories[category]} ${category}</label>
     </div>
     `;
