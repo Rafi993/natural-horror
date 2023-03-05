@@ -69,8 +69,8 @@ const renderGlobe = (animateIn = true) => {
   const globe = new ThreeGlobe({
     animateIn,
   })
-    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-    .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+    .globeImageUrl('/earth.jpg')
+    .bumpImageUrl('/earth-topology.png')
     .htmlElementsData(
       data.filter((d) => !hiddenCategories.includes(d.category)),
     )
