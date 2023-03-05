@@ -10,6 +10,8 @@ let scene = null;
 let camera = null;
 let renderers = null;
 let tbControls = null;
+let data = [];
+let hiddenCategories = [];
 
 const addStars = () => {};
 
@@ -46,11 +48,32 @@ const setupScene = () => {
   addStars();
 };
 
-const renderGlobe = (data) => {
-  const Globe = new ThreeGlobe()
+const renderGlobe = (animateIn = true) => {
+  const animate = () => {
+    tbControls.update();
+    renderers.forEach((r) => r.render(scene, camera));
+    requestAnimationFrame(animate);
+  };
+
+  const oldEarth = scene.getObjectByName('earth');
+
+  if (oldEarth) {
+    scene.remove(oldEarth);
+    document
+      .querySelectorAll('.category-container')
+      .forEach((el) => el.remove());
+
+    animate();
+  }
+
+  const globe = new ThreeGlobe({
+    animateIn,
+  })
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
     .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
-    .htmlElementsData(data)
+    .htmlElementsData(
+      data.filter((d) => !hiddenCategories.includes(d.category)),
+    )
     .htmlElement((d) => {
       const el = document.createElement('div');
 
@@ -73,30 +96,51 @@ const renderGlobe = (data) => {
       return el;
     });
 
-  scene.add(Globe);
-  Globe.position.set(10, 40, 0);
+  globe.name = 'earth';
+  scene.add(globe);
+  globe.position.set(10, 40, 0);
   // Update pov when camera moves
-  Globe.setPointOfView(camera.position, Globe.position);
+  globe.setPointOfView(camera.position, globe.position);
   tbControls.addEventListener('change', () =>
-    Globe.setPointOfView(camera.position, Globe.position),
+    globe.setPointOfView(camera.position, globe.position),
   );
 
-  // Kick-off renderers
-  const animate = () => {
-    tbControls.update();
-    renderers.forEach((r) => r.render(scene, camera));
-    requestAnimationFrame(animate);
-  };
-
   animate();
+};
+
+const renderLegend = () => {
+  const legend = document.getElementById('legend-list');
+  for (const category of Object.keys(categories)) {
+    const div = document.createElement('div');
+    div.innerHTML = `
+    <div class='legend-item'>
+      <input id="${category}" type='checkbox' value=${category}>
+      <label for="${category}">${categories[category]} ${category}</label>
+    </div>
+    `;
+    legend.appendChild(div);
+  }
+
+  legend.addEventListener('change', (e) => {
+    const { value } = e.target;
+    if (hiddenCategories.includes(value)) {
+      hiddenCategories = hiddenCategories.filter((c) => c !== value);
+    } else {
+      hiddenCategories.push(value);
+    }
+
+    renderGlobe(false);
+  });
 };
 
 const run = async () => {
   try {
     setupScene();
     const response = await fetch('/data.json');
-    const data = await response.json();
-    renderGlobe(data);
+    data = await response.json();
+    renderGlobe();
+    renderLegend();
+
     document
       .getElementById('search')
       .addEventListener('keyup', handleSearch(data));

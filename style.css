@@ -103,3 +103,50 @@ tag {
   margin: 0;
   text-align: left;
 }
+
+.legend {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  max-height: 200px;
+  min-width: 176px;
+  overflow: scroll;
+}
+
+.legend h3 {
+  margin: 0;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+}
+
+#legend-list {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.legend-item input + label {
+  display: block;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  pointer-events: all !important;
+  background-color: #282828;
+  border: 1px solid #282828;
+  margin-top: 8px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.legend-item input:checked + label {
+  color: #bbb;
+  background-color: #000;
+}
+
+.legend-item input {
+  visibility: hidden;
+  position: absolute;
+}
