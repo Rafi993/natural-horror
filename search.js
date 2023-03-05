@@ -11,6 +11,7 @@ const renderSearch = (result) => {
        <div>
           <a href="${item.link}" target="_blank">${item.movie} (${item.year})</a>
           <tag>${item.category}</tag>
+          <tag>Location: ${item.location}</tag>
        </div>
       `;
 
@@ -49,8 +50,12 @@ export const handleSearch = (data) => (event) => {
     return;
   }
 
-  const result = data.filter((item) =>
-    item.movie.toLowerCase().includes(searchTerm),
+  const result = data.filter(
+    (item) =>
+      item.movie.toLowerCase().includes(searchTerm) ||
+      item.location.toLowerCase().includes(searchTerm) ||
+      item.year.toLowerCase().includes(searchTerm) ||
+      item.category.toLowerCase().includes(searchTerm),
   );
 
   renderSearch(result);
