@@ -1,6 +1,10 @@
+import { categories } from './categories';
+
 const renderSearch = (result) => {
   const mapPlot = document.getElementById('map');
   mapPlot.style.display = 'none';
+  const legend = document.querySelector('.legend');
+  legend.style.display = 'none';
   const searchResult = document.getElementById('searchResult');
   searchResult.style.display = 'block';
   clearSearch();
@@ -9,8 +13,12 @@ const renderSearch = (result) => {
     const li = document.createElement('li');
     li.innerHTML = `
        <div>
-          <a href="${item.link}" target="_blank">${item.movie} (${item.year})</a>
-          <tag>${item.category}</tag>
+          <a href="${item.link}" target="_blank">${item.movie} (${
+      item.year
+    })</a>
+          <tag>
+          ${categories[item.category]}
+          ${item.category}</tag>
           <tag>Location: ${item.location}</tag>
        </div>
       `;
@@ -33,6 +41,8 @@ const renderSearch = (result) => {
 const hideSearch = () => {
   const mapPlot = document.getElementById('map');
   mapPlot.style.display = 'block';
+  const legend = document.querySelector('.legend');
+  legend.style.display = 'block';
   const searchResult = document.getElementById('searchResult');
   searchResult.style.display = 'none';
   clearSearch();

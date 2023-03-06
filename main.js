@@ -127,11 +127,11 @@ const renderStars = (starCount = 2000) => {
 };
 
 const renderLegend = () => {
-  const legend = document.getElementById('legend-list');
+  const legend = document.getElementById('categories');
   for (const category of Object.keys(categories)) {
     const div = document.createElement('div');
     div.innerHTML = `
-    <div class='legend-item'>
+    <div class='category'>
       <input id="${category}" type='checkbox' value="${category}">
       <label for="${category}">${categories[category]} ${category}</label>
     </div>

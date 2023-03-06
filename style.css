@@ -121,13 +121,13 @@ tag {
   background-color: #000;
 }
 
-#legend-list {
+#categories {
   margin: 0;
   list-style: none;
   padding-left: 0;
 }
 
-.legend-item input + label {
+.category input + label {
   display: block;
   border: none;
   cursor: pointer;
@@ -143,12 +143,12 @@ tag {
   transition: all 0.2s ease-in;
 }
 
-.legend-item input:checked + label {
+.category input:checked + label {
   color: #bbb;
   background-color: #000;
 }
 
-.legend-item input {
+.category input {
   visibility: hidden;
   position: absolute;
 }
@@ -168,6 +168,17 @@ tag {
 }
 
 .why:hover,
-.legend-item:hover input + label {
+.category:hover input + label {
   background-color: #161212;
+}
+
+#searchResult a {
+  color: greenyellow;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in;
+}
+
+#searchResult a:hover {
+  color: green;
 }
